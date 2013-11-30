@@ -5,8 +5,8 @@ import urllib
 from bs4 import BeautifulSoup
 
 # Get user input from command line
-url = raw_input("Please input a url :")
-url = 'http://'+url
+#url = raw_input("Please input a url :")            
+url = 'http://'+ raw_input("Please input a url :")
 #url = "http://www.ahau.edu.cn/"
 #url = "http://www.taobao.com/"
 #url = "http://www.ifeng.com/"
