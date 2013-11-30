@@ -4,6 +4,7 @@ import urlparse
 import urllib
 from bs4 import BeautifulSoup
 
+# Get user input from command line
 url = raw_input("Please input a url :")
 url = 'http://'+url
 #url = "http://www.ahau.edu.cn/"
