@@ -13,7 +13,8 @@ def incr_button_handler():
 def decr_button_handler():
     """Decrement the size."""
     global size
-    size -= 1
+    if size > 1:
+        size -= 1
     label.set_text("Value:"+str(size))
                                             
 def change_circle_handler():
